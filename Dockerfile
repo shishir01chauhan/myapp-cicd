@@ -3,7 +3,7 @@
 FROM node:18
 
 # Create app directory
-WORKDIR /myapp
+WORKDIR /ci-cp.yml
 
 # Install app dependencies
 # A wildcard is used to ensure both package.json AND package-lock.json are
