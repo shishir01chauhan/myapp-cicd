@@ -33,7 +33,7 @@ jobs:
 
     - name: Build Docker image
       run: |
-        docker build -t ${{ secrets.DOCKER_USERNAME }}/my-node-app:${{ github.sha }} .
+        docker build -t myapp .
 
     # - name: Push Docker image
     #   run: |
